@@ -1,0 +1,304 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+$c-gray: #3e3e3e;
+$c-black: #000;
+$c-while-gray: #9d9d9d;
+$c-while: #fff;
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $c-while-gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $c-gray;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
+
+.c-while-gray{
+  color: $c-while-gray;
+}
+
+.c-while-gray:hover{
+  color: $c-while;
+  text-decoration: none !important;
+}
+
+
+.site-content{
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: stretch;
+  position: relative;
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+  .language-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    img{
+      margin-right: 5px;
+      height: 15px;
+      cursor: pointer;
+      transition: 0.2s;
+      &.active{
+        border: 2px solid $c-gray;
+      }
+      &:hover{
+        box-shadow: 2px 2px 5px #bdbdbd;
+      }
+    }
+  }
+  .left-block{
+    width: 300px;
+    height: auto;
+    background: $c-gray;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    @media (max-width: 520px) {
+      padding-left: 10px;
+    }
+    .avatar-img{
+      display: block;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 2px solid $c-while;
+      margin: 20px auto 0 auto;
+      @media (max-width: 520px) {
+        width: 120px;
+        height: 120px;
+      }
+    }
+    .info-block-title{
+      width: 100%;
+      height: auto;
+      color: $c-while;
+      border-bottom: 2px solid $c-while;
+      margin-top: 10px;
+      padding: 5px 0;
+      font-size: 25px;
+    }
+    .language{
+      .language-name{
+        margin: 10px 0 0;
+        color: $c-while;
+      }
+      .loading{
+        margin-left: 0;
+        margin-top: 5px;
+      }
+
+    }
+    .info-block-item{
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      .icon{
+        font-size: 20px;
+        color: $c-while;
+        margin-right: 10px;
+      }
+      .title{
+        margin: 0;
+        color: $c-while;
+      }
+      .sub-title{
+        margin: -5px 0 5px 0;
+        color: $c-while-gray;
+      }
+    }
+  }
+
+  .right-block{
+    width: calc(100% - 300px);
+    padding: 0 30px;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    @media (max-width: 520px) {
+      padding: 0 10px;
+    }
+    .outer-name{
+      margin-top: 50px;
+      margin-left: 50px;
+      font-weight: 700;
+      font-size: 45px;
+      color: $c-gray;
+      @media (max-width: 520px) {
+        margin-left: 0;
+        font-size: 30px;
+      }
+    }
+    .outer-d{
+      margin: -10px 0 0 50px;
+      letter-spacing: 5px;
+      @media (max-width: 520px) {
+        margin: -10px 0 0 0;
+      }
+    }
+
+    .right-info-block{
+      margin-top: 30px;
+      width: 100%;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      .round-and-icon{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: 2px solid $c-gray;
+        margin-right: 10px;
+      }
+      .title{
+        border-bottom: 2px solid #3e3e3e;
+        padding: 10px 0;
+        font-size: 20px;
+        width: calc(100% - 50px);
+        font-weight: 500;
+        letter-spacing: 2px;
+      }
+    }
+    .info-item{
+      width: calc(100% - 18px);
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      margin-left: 18px;
+      position: relative;
+      margin-top: 20px;
+      @media (max-width: 520px) {
+        flex-direction: column;
+      }
+      &:before{
+        content: "";
+        width: 2px;
+        height: calc(100% + 20px);
+        background: $c-gray;
+        position: absolute;
+        left: 0;
+        top: -10px;
+      }
+      &:after{
+        content: "";
+        width: 15px;
+        height: 15px;
+        border-radius: 30px;
+        border: 2px solid $c-gray;
+        position: absolute;
+        left: -6px;
+        top: 3px;
+        background: $c-while;
+      }
+      .data-item{
+        color: $c-gray;
+        font-size: 14px;
+        white-space: nowrap;
+        margin-right: 10px;
+        margin-left: 30px;
+        font-weight: 500;
+        width: 90px;
+      }
+      .item-block{
+        width: calc(100% - 90px);
+        @media (max-width: 520px) {
+          margin-left: 30px;
+        }
+      }
+      .item-title{
+        color: $c-gray;
+        margin: 0;
+        font-weight: 500;
+      }
+      .item-sub-title{
+        margin: 0;
+        color: $c-while-gray;
+        line-height: 15px;
+        font-size: 15px;
+      }
+      .item-title-description{
+        color: $c-while-gray;
+        font-weight: 500;
+        font-size: 12px;
+        margin: -5px 0 5px 0;
+      }
+    }
+    .skills-body{
+      width: calc(100% - 22px);
+      margin-left: 18px;
+      padding-left: 30px;
+      border-left: 2px solid $c-gray;
+      margin-bottom: 50px;
+      .skills-block{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+        .skills-items{
+          width: 50%;
+          height: auto;
+          margin-top: 10px;
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          @media (max-width: 620px) {
+            width: 100%;
+            .loading{
+              width: calc(100% - 100px) !important;
+            }
+          }
+          .name{
+            min-width: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.loading{
+  width: 200px;
+  height: 10px;
+  background: $c-while-gray;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 10px;
+  .loading-percent{
+    width: 20%;
+    height: 100%;
+    background: $c-gray;
+  }
+}

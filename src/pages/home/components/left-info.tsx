@@ -267,6 +267,19 @@ export const leftInfo = [
                         <i className="fas fa-external-link-alt" />
                     </a>
                 )
+            },
+            {
+                icon: <i className="fas fa-portrait" />,
+                title: 'This Resume Page',
+                subTitle: (
+                    <a
+                        href="https://github.com/torgomyan01/andranik-torgomyan-resume"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
             }
         ]
     },

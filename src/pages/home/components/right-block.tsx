@@ -1,5 +1,5 @@
 import React from 'react';
-import { rightInfo, SkillsItems } from './right-info';
+import { Language, rightInfo, SkillsItems } from './right-info';
 import { keyGenerator } from 'utils/helpers';
 import Percents from 'features/percents/percents';
 
@@ -63,6 +63,26 @@ function RightBlock() {
                             </div>
                         );
                     })}
+                </div>
+            </div>
+            <div className="right-info-block">
+                <span className="round-and-icon">
+                    <i className="fas fa-globe-americas" />
+                </span>
+                <p className="title">LANGUAGE</p>
+            </div>
+            <div className="skills-body">
+                <div className="skills-block">
+                    {Language.map((lang) => (
+                        <div key={keyGenerator(30)} className="skills-items">
+                            <div className="name">{lang.languageName}</div>
+                            <Percents
+                                width={150}
+                                percent={lang.percent}
+                                color={null}
+                            />
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>

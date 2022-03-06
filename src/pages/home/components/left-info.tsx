@@ -5,6 +5,7 @@ import AboutUS from 'assets/images/AboutUS.png';
 import mosService from 'assets/images/mosService.png';
 import QT from 'assets/images/QT.png';
 import TicTacToe from 'assets/images/tic-tac-toe.png';
+import FaceApp from 'assets/images/face-app.png';
 
 export const leftInfo = [
     {
@@ -74,6 +75,19 @@ export const leftInfo = [
         className: 'mt-5',
         body: [
             {
+                icon: <i className="fab fa-linkedin" />,
+                title: 'Linkedin',
+                subTitle: (
+                    <a
+                        href="https://www.linkedin.com/in/torgomyan01/"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        @torgomyan01
+                    </a>
+                )
+            },
+            {
                 icon: <i className="fab fa-facebook-square" />,
                 title: 'Facebook',
                 subTitle: (
@@ -87,15 +101,15 @@ export const leftInfo = [
                 )
             },
             {
-                icon: <i className="fab fa-linkedin" />,
-                title: 'Linkedin',
+                icon: <i className="fab fa-telegram" />,
+                title: 'Telegram',
                 subTitle: (
                     <a
-                        href="https://www.linkedin.com/in/andranik-torgomyan-1193221b0/"
-                        target="_blank"
+                        href="https://t.me/torgomyan01"
                         className="c-while-gray"
+                        target="_blank"
                         rel="noreferrer">
-                        andranik-torgomyan-1193221b0
+                        +374 77 76-96-68
                     </a>
                 )
             },
@@ -107,19 +121,6 @@ export const leftInfo = [
                         href="https://wa.me/+37477769668?text=Hi Andranik"
                         target="_blank"
                         className="c-while-gray"
-                        rel="noreferrer">
-                        +374 77 76-96-68
-                    </a>
-                )
-            },
-            {
-                icon: <i className="fab fa-telegram" />,
-                title: 'Telegram',
-                subTitle: (
-                    <a
-                        href="https://t.me/torgomyan01"
-                        className="c-while-gray"
-                        target="_blank"
                         rel="noreferrer">
                         +374 77 76-96-68
                     </a>
@@ -208,6 +209,19 @@ export const leftInfo = [
                         <i className="fas fa-external-link-alt" />
                     </a>
                 )
+            },
+            {
+                icon: <img src={FaceApp} alt="Face App" width={30} />,
+                title: 'Face App',
+                subTitle: (
+                    <a
+                        href="https://torgomyan01.github.io/face-app/"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
             }
         ]
     },
@@ -274,20 +288,5 @@ export const leftInfo = [
                 )
             }
         ]
-    }
-];
-
-export const Language = [
-    {
-        languageName: 'Armenian',
-        percent: 100
-    },
-    {
-        languageName: 'Russian',
-        percent: 80
-    },
-    {
-        languageName: 'English',
-        percent: 30
     }
 ];

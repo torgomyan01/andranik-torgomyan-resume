@@ -23,7 +23,7 @@ $c-while: #fff;
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: $c-gray;
+    background: #3e3e3e73;
 }
 
 /* Handle on hover */
@@ -313,4 +313,9 @@ $c-while: #fff;
         height: 100%;
         background: $c-gray;
     }
+}
+
+.left-block-section {
+    max-height: 300px;
+    overflow: auto;
 }

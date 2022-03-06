@@ -116,3 +116,18 @@ export const SkillsItems = [
         percent: 70
     }
 ];
+
+export const Language = [
+    {
+        languageName: 'Armenian',
+        percent: 100
+    },
+    {
+        languageName: 'Russian',
+        percent: 80
+    },
+    {
+        languageName: 'English',
+        percent: 30
+    }
+];

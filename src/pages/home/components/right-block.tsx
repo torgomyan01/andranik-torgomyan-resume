@@ -11,7 +11,7 @@ function RightBlock() {
 
             {rightInfo.map((info) => {
                 return (
-                    <>
+                    <div key={keyGenerator(20)}>
                         <div
                             key={keyGenerator(20)}
                             className="right-info-block">
@@ -38,7 +38,7 @@ function RightBlock() {
                                 </div>
                             );
                         })}
-                    </>
+                    </div>
                 );
             })}
             <div className="right-info-block">

@@ -6,6 +6,17 @@ import mosService from 'assets/images/mosService.png';
 import QT from 'assets/images/QT.png';
 import TicTacToe from 'assets/images/tic-tac-toe.png';
 import FaceApp from 'assets/images/face-app.png';
+import Youtube from 'assets/images/youtube.png';
+import ciklevka from 'assets/images/ciklevka.png';
+import YOUNGZSOFT from 'assets/images/YOUNGZSOFT.png';
+import sys from 'assets/images/sys.png';
+import YOUNGZSOFT_landing from 'assets/images/YOUNGZSOFT_landing.png';
+import cripoPost from 'assets/images/cripoPost.png';
+import shopProductCard from 'assets/images/shop-product-card.png';
+import nt from 'assets/images/nt.png';
+import fullStroi from 'assets/images/full-stroi.png';
+import winitp from 'assets/images/winitp.png';
+import adzMotors from 'assets/images/adz-motors.png';
 
 export const leftInfo = [
     {
@@ -13,11 +24,13 @@ export const leftInfo = [
         className: '',
         body: [
             {
+                tooltip: null,
                 icon: <i className="fas fa-user" />,
                 title: 'Name',
                 subTitle: 'Andranik Torgomyan'
             },
             {
+                tooltip: null,
                 icon: <i className="fas fa-map-marker-alt" />,
                 title: 'Address',
                 subTitle: (
@@ -31,6 +44,7 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: null,
                 icon: <i className="fas fa-phone-alt" />,
                 title: 'Phone',
                 subTitle: (
@@ -44,6 +58,7 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: null,
                 icon: <i className="fas fa-envelope" />,
                 title: 'Email',
                 subTitle: (
@@ -57,6 +72,7 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: null,
                 icon: <i className="fab fa-github" />,
                 title: 'GitHub',
                 subTitle: (
@@ -75,6 +91,7 @@ export const leftInfo = [
         className: 'mt-5',
         body: [
             {
+                tooltip: null,
                 icon: <i className="fab fa-linkedin" />,
                 title: 'Linkedin',
                 subTitle: (
@@ -88,6 +105,7 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: null,
                 icon: <i className="fab fa-facebook-square" />,
                 title: 'Facebook',
                 subTitle: (
@@ -101,6 +119,7 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: null,
                 icon: <i className="fab fa-telegram" />,
                 title: 'Telegram',
                 subTitle: (
@@ -114,6 +133,7 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: null,
                 icon: <i className="fab fa-whatsapp-square" />,
                 title: 'WhatsUp',
                 subTitle: (
@@ -127,6 +147,7 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: null,
                 icon: <i className="fab fa-viber" />,
                 title: 'Viber',
                 subTitle: (
@@ -146,6 +167,21 @@ export const leftInfo = [
         className: 'mt-5',
         body: [
             {
+                tooltip: 'Open Page Ciklevka',
+                icon: <img src={ciklevka} alt="Ciklevka" width={30} />,
+                title: 'Ciklevka',
+                subTitle: (
+                    <a
+                        href="https://torgomyan01.github.io/ciklevka/"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: 'Open Page Paulownia',
                 icon: <img src={Paulownia} alt="Paulownia" width={30} />,
                 title: 'Paulownia',
                 subTitle: (
@@ -159,6 +195,21 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: 'Open Full Stroi',
+                icon: <img src={fullStroi} alt="Full Stroi" width={30} />,
+                title: 'Full Stroi',
+                subTitle: (
+                    <a
+                        href="https://torgomyan01.github.io/full-stroi/"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: 'Open Page ADZ Motors',
                 icon: <img src={adz} alt="ADZ Motors" width={30} />,
                 title: 'ADZ Motors',
                 subTitle: (
@@ -172,6 +223,117 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: 'Open Page YOUNGZSOFT Users',
+                icon: <img src={YOUNGZSOFT} alt="YOUNGZSOFT" width={30} />,
+                title: 'YOUNGZSOFT Users',
+                subTitle: (
+                    <a
+                        href="https://torgomyan01.github.io/YOUNGZSOFT/"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: 'Open Page sys.id',
+                icon: <img src={sys} alt="sys" width={30} />,
+                title: 'sys.id',
+                subTitle: (
+                    <a
+                        href="https://torgomyan01.github.io/sys/"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: 'Open Page YOUNGZSOFT Landing',
+                icon: (
+                    <img
+                        src={YOUNGZSOFT_landing}
+                        alt="YOUNGZSOFT_landing"
+                        width={30}
+                    />
+                ),
+                title: 'YOUNGZSOFT Landing',
+                subTitle: (
+                    <a
+                        href="https://torgomyan01.github.io/YOUNGZSOFT_landing/"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: 'Open Page cripoPost',
+                icon: <img src={cripoPost} alt="cripoPost" width={30} />,
+                title: 'cripoPost',
+                subTitle: (
+                    <a
+                        href="https://torgomyan01.github.io/cripoPost/"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: 'Open Page cripoPost Backend',
+                icon: <img src={cripoPost} alt="cripoPost" width={30} />,
+                title: 'cripoPost Backend',
+                subTitle: (
+                    <a
+                        href="https://github.com/torgomyan01/cripoPost_backend"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: 'Open Page Shop Product Card',
+                icon: (
+                    <img
+                        src={shopProductCard}
+                        alt="shopProductCard"
+                        width={30}
+                    />
+                ),
+                title: 'Shop Product Card',
+                subTitle: (
+                    <a
+                        href="https://torgomyan01.github.io/shop-product-card/"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: 'Open Page NT',
+                icon: <img src={nt} alt="nt" width={30} />,
+                title: 'NT',
+                subTitle: (
+                    <a
+                        href="https://torgomyan01.github.io/layout-framework/"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: 'Open Page AboutUS',
                 icon: <img src={AboutUS} alt="AboutUS" width={30} />,
                 title: 'AboutUS',
                 subTitle: (
@@ -185,6 +347,7 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: 'Open Page МосСервис',
                 icon: <img src={mosService} alt="МосСервис" width={30} />,
                 title: 'МосСервис',
                 subTitle: (
@@ -198,6 +361,7 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: 'Open Page QUICKSTEPS TIMETABLE',
                 icon: <img src={QT} alt="QUICKSTEPS TIMETABLE" width={30} />,
                 title: 'QUICKSTEPS TIMETABLE',
                 subTitle: (
@@ -211,6 +375,7 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: 'Open Page Face App',
                 icon: <img src={FaceApp} alt="Face App" width={30} />,
                 title: 'Face App',
                 subTitle: (
@@ -222,14 +387,43 @@ export const leftInfo = [
                         <i className="fas fa-external-link-alt" />
                     </a>
                 )
+            },
+            {
+                tooltip: 'Open Page Youtube Copy Project',
+                icon: <img src={Youtube} alt="Face App" width={30} />,
+                title: 'Youtube Copy Project',
+                subTitle: (
+                    <a
+                        href=" https://torgomyan01.github.io/youtube-project/"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
             }
         ]
     },
     {
-        title: 'React Portfolio',
+        title: 'REACT PORTFOLIO',
         className: 'mt-5',
         body: [
             {
+                tooltip: null,
+                icon: <i className="fas fa-images" />,
+                title: 'Fanbooks',
+                subTitle: (
+                    <a
+                        href="https://github.com/torgomyan01/Fanbook"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: null,
                 icon: <i className="fas fa-music" />,
                 title: 'LovSound',
                 subTitle: (
@@ -243,6 +437,7 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: null,
                 icon: <i className="fas fa-dice-one" />,
                 title: 'H1',
                 subTitle: (
@@ -256,6 +451,7 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: null,
                 icon: <i className="fas fa-icons" />,
                 title: 'Free Icons',
                 subTitle: (
@@ -269,6 +465,7 @@ export const leftInfo = [
                 )
             },
             {
+                tooltip: null,
                 icon: <i className="fas fa-portrait" />,
                 title: 'This Resume Page',
                 subTitle: (
@@ -284,10 +481,11 @@ export const leftInfo = [
         ]
     },
     {
-        title: 'Games',
+        title: 'PRACTICE GAMES',
         className: 'mt-5',
         body: [
             {
+                tooltip: null,
                 icon: <img src={TicTacToe} width={30} alt="TicTacToe" />,
                 title: 'Tic-Tac-Toe Game',
                 subTitle: (
@@ -297,6 +495,98 @@ export const leftInfo = [
                         className="c-while-gray"
                         rel="noreferrer">
                         <i className="fas fa-play" />
+                    </a>
+                )
+            }
+        ]
+    },
+    {
+        title: 'PORTFOLIO DESIGNS',
+        className: 'mt-5',
+        body: [
+            {
+                tooltip: 'Open design YOUNGZSOFT Landing',
+                icon: (
+                    <img src={YOUNGZSOFT} width={30} alt="YOUNGZSOFT landing" />
+                ),
+                title: 'YOUNGZSOFT Landing',
+                subTitle: (
+                    <a
+                        href="https://www.figma.com/file/X2LMX4IjeAFU69FiknaBqx/YOUNGZSOFT_landing"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: 'Open design YOUNGZSOFT Users page',
+                icon: <img src={YOUNGZSOFT} width={30} alt="YOUNGZSOFT" />,
+                title: 'YOUNGZSOFT Users page',
+                subTitle: (
+                    <a
+                        href="https://www.figma.com/file/Uu0VyLkvi4gIouQhmM0Oyp/YOUNGZSOFT-Copy"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: 'Open design FULL STROI',
+                icon: <img src={fullStroi} width={30} alt="FULL STROI" />,
+                title: 'FULL STROI',
+                subTitle: (
+                    <a
+                        href="https://www.figma.com/file/VUCuwTblh1EEvpmwmIn3gf/FULL-STROI"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: 'Open design Win IP',
+                icon: <img src={winitp} width={30} alt="Win IP" />,
+                title: 'Win IP',
+                subTitle: (
+                    <a
+                        href="https://www.figma.com/file/KwRQdywsgdbQYY5EXAhAOB/WINIIP-Copy"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: 'Open design Transmission',
+                icon: <img src={adz} width={30} alt="Transmission" />,
+                title: 'Transmission',
+                subTitle: (
+                    <a
+                        href="https://www.figma.com/file/XcoF36r7xZyBcHUOHjYFFE/Transmision"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
+                    </a>
+                )
+            },
+            {
+                tooltip: 'Open design ADZ Motors',
+                icon: <img src={adzMotors} width={30} alt="ADZ Motors" />,
+                title: 'ADZ Motors',
+                subTitle: (
+                    <a
+                        href="https://www.figma.com/file/XcoF36r7xZyBcHUOHjYFFE/Transmision"
+                        target="_blank"
+                        className="c-while-gray"
+                        rel="noreferrer">
+                        <i className="fas fa-external-link-alt" />
                     </a>
                 )
             }

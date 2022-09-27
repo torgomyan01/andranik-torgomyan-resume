@@ -97,11 +97,11 @@ export const SkillsItems = [
     },
     {
         name: 'NodeJS',
-        percent: 40
+        percent: 50
     },
     {
         name: 'PHP',
-        percent: 50
+        percent: 60
     },
     {
         name: 'MySQL',
@@ -109,7 +109,7 @@ export const SkillsItems = [
     },
     {
         name: 'Laravel',
-        percent: 30
+        percent: 60
     },
     {
         name: 'Git',
@@ -124,7 +124,7 @@ export const Language = [
     },
     {
         languageName: 'Russian',
-        percent: 80
+        percent: 70
     },
     {
         languageName: 'English',

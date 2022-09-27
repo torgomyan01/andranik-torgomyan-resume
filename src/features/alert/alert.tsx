@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import Snackbar, { SnackbarOrigin } from '@material-ui/core/Snackbar';
 import { useDispatch, useSelector } from 'react-redux';
 import { openAlert, setMessageAlert } from 'redux/alert-site';
+import { Snackbar, SnackbarOrigin } from '@mui/material';
 
 export interface State extends SnackbarOrigin {
     open: boolean;

@@ -2,6 +2,7 @@ import React from 'react';
 import avatar from 'assets/images/avatar.jpg';
 import { leftInfo } from './left-info';
 import { keyGenerator } from 'utils/helpers';
+import { Tooltip } from '@mui/material';
 
 function LeftBlock() {
     return (
@@ -13,7 +14,7 @@ function LeftBlock() {
             />
             {leftInfo.map((info) => {
                 return (
-                    <>
+                    <div key={keyGenerator(20)}>
                         <div className={`info-block-title ${info.className}`}>
                             {info.title}
                         </div>
@@ -30,15 +31,28 @@ function LeftBlock() {
                                             <p className="title">
                                                 {infoItem.title}
                                             </p>
-                                            <p className="sub-title">
-                                                {infoItem.subTitle}
-                                            </p>
+                                            {infoItem.tooltip ? (
+                                                <Tooltip
+                                                    title={
+                                                        infoItem.tooltip ||
+                                                        'Open Link'
+                                                    }
+                                                    placement="top">
+                                                    <p className="sub-title d-inline-block">
+                                                        {infoItem.subTitle}
+                                                    </p>
+                                                </Tooltip>
+                                            ) : (
+                                                <p className="sub-title d-inline-block">
+                                                    {infoItem.subTitle}
+                                                </p>
+                                            )}
                                         </div>
                                     </div>
                                 );
                             })}
                         </div>
-                    </>
+                    </div>
                 );
             })}
         </div>

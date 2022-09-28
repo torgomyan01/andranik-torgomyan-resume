@@ -2,7 +2,7 @@
     "name": "andranik-torgomyan-resume",
     "version": "0.1.0",
     "private": true,
-    "homepage": " https://torgomyan01.github.io",
+    "homepage": "https://torgomyan01.github.io/andranik-torgomyan-resume",
     "dependencies": {
         "@emotion/react": "^11.10.4",
         "@emotion/styled": "^11.10.4",

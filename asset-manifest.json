@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/andranik-torgomyan-resume/static/css/main.a575a74a.chunk.css",
-    "main.js": "/andranik-torgomyan-resume/static/js/main.78c15f24.chunk.js",
-    "main.js.map": "/andranik-torgomyan-resume/static/js/main.78c15f24.chunk.js.map",
+    "main.css": "/andranik-torgomyan-resume/static/css/main.fb4855c0.chunk.css",
+    "main.js": "/andranik-torgomyan-resume/static/js/main.de2d81b3.chunk.js",
+    "main.js.map": "/andranik-torgomyan-resume/static/js/main.de2d81b3.chunk.js.map",
     "runtime-main.js": "/andranik-torgomyan-resume/static/js/runtime-main.1ceb1e48.js",
     "runtime-main.js.map": "/andranik-torgomyan-resume/static/js/runtime-main.1ceb1e48.js.map",
     "static/css/2.081f420c.chunk.css": "/andranik-torgomyan-resume/static/css/2.081f420c.chunk.css",
-    "static/js/2.2e6e34c6.chunk.js": "/andranik-torgomyan-resume/static/js/2.2e6e34c6.chunk.js",
-    "static/js/2.2e6e34c6.chunk.js.map": "/andranik-torgomyan-resume/static/js/2.2e6e34c6.chunk.js.map",
+    "static/js/2.3d8a7c4e.chunk.js": "/andranik-torgomyan-resume/static/js/2.3d8a7c4e.chunk.js",
+    "static/js/2.3d8a7c4e.chunk.js.map": "/andranik-torgomyan-resume/static/js/2.3d8a7c4e.chunk.js.map",
     "index.html": "/andranik-torgomyan-resume/index.html",
     "static/css/2.081f420c.chunk.css.map": "/andranik-torgomyan-resume/static/css/2.081f420c.chunk.css.map",
-    "static/css/main.a575a74a.chunk.css.map": "/andranik-torgomyan-resume/static/css/main.a575a74a.chunk.css.map",
-    "static/js/2.2e6e34c6.chunk.js.LICENSE.txt": "/andranik-torgomyan-resume/static/js/2.2e6e34c6.chunk.js.LICENSE.txt",
+    "static/css/main.fb4855c0.chunk.css.map": "/andranik-torgomyan-resume/static/css/main.fb4855c0.chunk.css.map",
+    "static/js/2.3d8a7c4e.chunk.js.LICENSE.txt": "/andranik-torgomyan-resume/static/js/2.3d8a7c4e.chunk.js.LICENSE.txt",
     "static/media/QT.ef3d9e2d.png": "/andranik-torgomyan-resume/static/media/QT.ef3d9e2d.png",
     "static/media/adz-motors.f60137ea.png": "/andranik-torgomyan-resume/static/media/adz-motors.f60137ea.png",
     "static/media/avatar.0b3a1ec0.jpg": "/andranik-torgomyan-resume/static/media/avatar.0b3a1ec0.jpg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.1ceb1e48.js",
     "static/css/2.081f420c.chunk.css",
-    "static/js/2.2e6e34c6.chunk.js",
-    "static/css/main.a575a74a.chunk.css",
-    "static/js/main.78c15f24.chunk.js"
+    "static/js/2.3d8a7c4e.chunk.js",
+    "static/css/main.fb4855c0.chunk.css",
+    "static/js/main.de2d81b3.chunk.js"
   ]
 }
